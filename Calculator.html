@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" type="text.css" href="Calculator.css">
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="Calculator.js"></script>
+    </head>
+    <body>
+        <div id="calc">
+            <div id="lineOne">
+                <button onclick="clearActionBox()" id="clearButton">C</button>
+                <div id="actionBox">
+                </div>
+
+            </div>
+            <div id="lineTwo">
+                <button onclick="numberInput(1)">1</button>
+                <button onclick="numberInput(2)">2</button>
+                <button onclick="numberInput(3)">3</button>
+                <button onclick="operatorInput('+')" class="operator">+</button>
+                <br>
+            </div>
+            <div id="lineThree">
+                <button onclick="numberInput(4)">4</button>
+                <button onclick="numberInput(5)">5</button>
+                <button onclick="numberInput(6)">6</button>
+                <button onclick="minusInput('-')" class="operator">-</button>
+                <br>
+            </div>
+            <div id="lineFour">
+                <button onclick="numberInput(7)">7</button>
+                <button onclick="numberInput(8)">8</button>
+                <button onclick="numberInput(9)">9</button>
+                <button onclick="operatorInput('/')" class="operator">/</button>
+            </div>
+
+            <div id="lineFive">
+                <button onclick="numberInput(0)">0</button>
+                <button onclick="numberInput('.')">.</button>
+                <button onclick="equals('=')" class="operator">=</button>
+                <button onclick="operatorInput('*')" class="operator">*</button>
+            </div>
+        </div>
+    </body>
+</html>

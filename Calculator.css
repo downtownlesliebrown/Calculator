@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: 14px Arial, sans-serif;
+}
+
+button {
+    width: 60px;
+    height:40px;
+    margin: 1px 9px 2px 0;
+}
+#actionBox {
+    width: 203px;
+    height: 39px;
+    margin: 2px 0 4px 9px;
+    font-size: 19px;
+	line-height: 40px;
+    background-color: lightgray;
+    display: inline-block;
+    text-align: right;
+    overflow:hidden;
+
+}
+#clearButton {
+    float:left;
+    position: relative;
+    margin-right: 4px;
+    background-color: #2374FF;
+}
+#calc {
+    width: 360px;
+	height: auto;
+	margin: 100px auto;
+	padding: 20px 20px 20px 40px;
+	background: white;
+	background: linear-gradient(#ABABAB, #C1C1C1);
+	border-radius: 3px;
+}
+
+.operator {
+    background-color: #619BFF;
+}
